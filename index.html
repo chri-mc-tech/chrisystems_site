@@ -3,46 +3,74 @@
 
 <style>
 
-    body {
-        color: white;
-        font-family: 'Rubik', sans-serif;
-        background: linear-gradient(to top right, #141424, #1a0075, #5b00a0) fixed;
-        margin: 0;
-        padding: 0;
-    }
+  body {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(to top right, #141424, #1a0075, #5b00a0) fixed;
+    margin: 0;
+    padding: 0;
+  }
 
-    header {
-        position: sticky;
-        top: 0;
-        padding: 0 10px;
-        background: linear-gradient(to top, #441dd1, #4216b1);
-    }
+  header {
+    position: sticky;
+    top: 0;
+    padding: 0 10px;
+    background: rgba(57, 35, 170, 0.6);
+    backdrop-filter: blur(16px);
+  }
 
-    nav {
-        display: flex;
-        gap: 10px;
-        align-items: center;
-    }
+  nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
 
-    .menu {
-        text-decoration: none;
-        color: white;
-        margin: 10px;
-    }
+  .menu {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 6px 14px;
+    border-radius: 20px;
+    transition: background 0.2s;
+  }
+  .menu:hover {
+    background: rgba(255,255,255,0.12);
+  }
 
-    .site {
-        justify-items: center;
-        margin: 0;
-    }
+  .mini_title {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.4);
+  }
 
-    .box {
-        height: auto;
-        background: #441dd1;
-        border-radius: 20px;
-        padding: 15px;
-        width: 90%;
-        min-width: 300px;
-    }
+  .site {
+    justify-items: center;
+    margin: 0;
+  }
+
+  .box {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 20px 24px;
+    backdrop-filter: blur(8px);
+    transition: border-color 0.2s;
+  }
+  .box:hover {
+    border-color: rgba(255, 255, 255, 0.25);
+  }
+
+  .tag {
+    display: inline-block;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 13px;
+    padding: 5px 12px;
+    font-size: 16px;
+    margin: 4px;
+  }
 
 </style>
 
@@ -50,7 +78,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Chri Dev</title>
+  <title>Chri Systems</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,7 +90,7 @@
 <header>
   <nav>
     <img src="assets/logo.png" width="40" height="40" alt="logo" style="border-radius: 25%">
-    <h2 style="color: #ffffff">Chri Dev</h2>
+    <h2 style="color: #ffffff">Chri Systems</h2>
     <div style="margin-left: auto; margin-right: 15px;">
       <a class="menu" href="index.html">Home</a>
       <a class="menu" href="projects.html">Progetti</a>
@@ -71,10 +99,10 @@
   </nav>
 </header>
 <div class="site">
-  <h1 style="color: #ffffff; padding-top: 50px; padding-bottom: 20px">Benvenuto su Chri Dev</h1>
-  
+  <h1 style="color: #ffffff; padding-top: 50px; padding-bottom: 20px">Benvenuto su Chri Systems</h1>
+
   <div class="box" style="margin: 3%;">
-    <p style="margin: 0; font-size: 18px">
+    <p style="margin: 0; font-size: 20px">
       Ciao, ho 16 anni e sono uno studente di informatica appassionato di tecnologia. <br>
       Mi piace programmare, usare Linux, gestire server e soprattutto continuare a imparare cose nuove. <br>
       A scuola sto studiando Python, ma conosco meglio C++, che ho imparato principalmente da solo. <br>
@@ -83,58 +111,52 @@
     </p>
   </div>
 
-  <div style="display: flex; flex-wrap: wrap; padding-top: 50px; width: 100%; justify-content: center;">
-    <div style="width: 45%">
+  <div style="display: flex; flex-wrap: wrap; padding-top: 50px; width: 90%; justify-content: center; gap: 30px">
+    <div style="width: 45%; min-width: 350px;">
       <h1 style="color: #ffffff; padding-top: 10px; padding-bottom: 10px;">Tecnologie che uso</h1>
-      <div class="box" style="width: 90%">
-        <p style="margin: 0; font-size: 18px">
-          Programmazione e Web: <br>
-          - c++ <br>
-          - python <br>
-          - html <br>
-          - css <br><br>
+      <div class="box">
+        <span class="mini_title">Programmazione e Web:</span> <br>
+        <span class="tag">C++</span>
+        <span class="tag">Python</span>
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span> <br> <br>
 
-          Strumenti: <br>
-          - Git <br>
-          - Github <br>
-          - CLion (IDE) <br>
-          - WebStorm (IDE) <br><br>
+        <span class="mini_title">Strumenti:</span> <br>
+        <span class="tag">Git</span>
+        <span class="tag">GitHub</span>
+        <span class="tag">CLion (IDE)</span>
+        <span class="tag">WebStorm (IDE)</span> <br> <br>
 
-          Altro: <br>
-          - Linux <br>
-          - VPS <br>
-
-        </p>
+        <span class="mini_title">Altro:</span> <br>
+        <span class="tag">Linux</span>
       </div>
     </div>
 
-    <div style="width: 45%">
+    <div style="width: 45%; min-width: 350px;">
       <h1 style="color: #ffffff; padding-top: 10px; padding-bottom: 10px">Conoscenze</h1>
-      <div class="box" style="width: 90%">
-        <p style="margin: 0; font-size: 16px">
-          Networking: <br>
-          - IP <br>
-          - DNS <br>
-          - HTTP/HTTPS <br>
-          - TCP/UDP <br><br>
+      <div class="box">
+        <span class="mini_title">Networking:</span> <br>
+        <span class="tag">IP</span>
+        <span class="tag">DNS</span>
+        <span class="tag">HTTP/HTTPS</span>
+        <span class="tag">TCP/UDP</span> <br> <br>
 
-          Sistemi: <br>
-          - Linux internals (base) <br>
-          - File system <br>
-          - Terminale e shell <br> <br>
+        <span class="mini_title">Sistemi:</span> <br>
+        <span class="tag">Linux internals (base)</span>
+        <span class="tag">File system</span>
+        <span class="tag">Terminale e shell</span> <br> <br>
 
-          Sicurezza: <br>
-          - Firewall <br>
-          - Concetti di sicurezza di rete <br>
-          - OSINT base <br> <br>
+        <span class="mini_title">Sicurezza:</span> <br>
+        <span class="tag">Firewall</span>
+        <span class="tag">Concetti di sicurezza di rete</span>
+        <span class="tag">OSINT base</span> <br> <br>
 
-          Informatica generale: <br>
-          - Architettura dei computer <br>
-          - Funzionamento CPU/RAM <br>
-          - Binario/esadecimale <br>
-          - Algoritmi base <br>
+        <span class="mini_title">Informatica generale:</span> <br>
+        <span class="tag">Architettura dei computer</span>
+        <span class="tag">Funzionamento CPU/RAM</span>
+        <span class="tag">Binario/esadecimale</span>
+        <span class="tag">Algoritmi base</span>
 
-        </p>
       </div>
     </div>
   </div>
