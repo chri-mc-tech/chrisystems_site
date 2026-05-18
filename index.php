@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
 <?php include 'includes/header.php'; ?>
 
 <div class="site">
@@ -82,11 +83,7 @@
 </div>
 <div style="height: 200px;"></div>
 
-<footer>
-  <div style="justify-self: center;"> <br>
-    <p>© 2026 Chri Systems. All rights reserved.</p>
-    <p style="justify-self: center">Made with ❤️ by Chri</p>
-  </div>
-</footer>
+<?php include 'includes/footer.php'; ?>
+
 </body>
 </html>
