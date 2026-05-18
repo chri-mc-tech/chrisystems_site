@@ -22,8 +22,20 @@ include 'includes/header.php';
 ?>
 
 <div class="site">
-  <h1 style="color: #ffffff; padding-top: 200px; padding-bottom: 20px">Questa pagina è in costruzione</h1>
-  <div style="height: 500px"></div>
+  <div style="display: flex; flex-wrap: wrap; padding-top: 50px; width: 90%; justify-content: center; gap: 30px">
+
+    <div class="box_projects">
+      <h2 style="margin: 0">Videogioco C++</h2>
+      <p>Pagina in costruzione</p>
+    </div>
+
+    <div class="box_projects">
+      <h2 style="margin: 0">Server Minecraft | Relise MC</h2>
+      <p>Pagina in costruzione</p>
+    </div>
+
+  </div>
+  <div style="height: 800px"></div>
 </div>
 
 <?php include 'includes/footer.php'; ?>

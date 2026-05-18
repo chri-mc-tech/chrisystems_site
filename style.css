@@ -26,7 +26,7 @@ nav {
     color: white;
     margin: 10px;
     padding: 6px 14px;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: background 0.2s;
 }
 .menu:hover {
@@ -57,14 +57,27 @@ nav {
     border-color: rgba(255, 255, 255, 0.25);
 }
 
+.box_projects {
+    background: rgb(73, 29, 214, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 20px 24px;
+    transition: border-color 0.2s;
+    width: 400px;
+    height: 200px;
+}
+.box_projects:hover {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
 .tag {
     display: inline-block;
     background: rgba(255,255,255,0.1);
     border: 1px solid rgba(255,255,255,0.15);
     border-radius: 13px;
-    padding: 5px 12px;
+    padding: 6px 12px;
     font-size: 16px;
-    margin: 4px;
+    margin: 6px;
 }
 
 footer {
