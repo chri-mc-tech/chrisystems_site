@@ -16,7 +16,10 @@
 
 <body>
 
-<?php include 'includes/header.php'; ?>
+<?php
+$home = 'style="background: rgba(0,0,0,0.2);"';
+include 'includes/header.php';
+?>
 
 <div class="site">
   <h1 style="color: #ffffff; padding-top: 50px; padding-bottom: 20px">Benvenuto su Chri Systems</h1>
