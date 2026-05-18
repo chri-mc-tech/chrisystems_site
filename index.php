@@ -15,17 +15,7 @@
 </head>
 
 <body>
-<header>
-  <nav>
-    <img src="assets/logo.png" width="40" height="40" alt="logo" style="border-radius: 25%">
-    <h2 style="color: #ffffff">Chri Systems</h2>
-    <div style="margin-left: auto; margin-right: 15px;">
-      <a class="menu" href="index.html">Home</a>
-      <a class="menu" href="projects.html">Progetti</a>
-      <a class="menu" href="gallery.html">Galleria</a>
-    </div>
-  </nav>
-</header>
+<?php include 'includes/header.php'; ?>
 
 <div class="site">
   <h1 style="color: #ffffff; padding-top: 50px; padding-bottom: 20px">Benvenuto su Chri Systems</h1>
@@ -34,9 +24,9 @@
     <p style="margin: 0; font-size: 22px; text-align: center">
       Ciao, ho 16 anni e sono uno studente di informatica appassionato di tecnologia. <br>
       Mi piace programmare, usare Linux, gestire server e soprattutto continuare a imparare cose nuove. <br>
-      A scuola sto studiando Python, ma conosco meglio C++, che ho imparato principalmente da solo. <br>
-      Sto iniziando anche con lo sviluppo web. <br>
-      Questo sito è il posto dove condivido quello che faccio, i miei progetti e il mio percorso.
+      A scuola sto studiando Python, ma conosco meglio C++, che ho imparato da solo. <br>
+      Sto iniziando anche con lo sviluppo web proprio con questo sito. <br>
+      Questo è il posto dove condivido quello che faccio, i miei progetti e il mio percorso.
     </p>
   </div>
 
@@ -90,5 +80,13 @@
     </div>
   </div>
 </div>
+<div style="height: 200px;"></div>
+
+<footer>
+  <div style="justify-self: center;"> <br>
+    <p>© 2026 Chri Systems. All rights reserved.</p>
+    <p style="justify-self: center">Made with ❤️ by Chri</p>
+  </div>
+</footer>
 </body>
 </html>

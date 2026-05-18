@@ -20,8 +20,8 @@
     <img src="assets/logo.png" width="40" height="40" alt="logo" style="border-radius: 25%">
     <h2 style="color: #ffffff">Chri Systems</h2>
     <div style="margin-left: auto; margin-right: 15px;">
-      <a class="menu" href="index.html">Home</a>
-      <a class="menu" href="projects.html">Progetti</a>
+      <a class="menu" href="index.php">Home</a>
+      <a class="menu" style="background: rgba(255,255,255,0.1);" href="projects.html">Progetti</a>
       <a class="menu" href="gallery.html">Galleria</a>
     </div>
   </nav>
@@ -29,4 +29,5 @@
 
 <div class="site">
   <h1 style="color: #ffffff; padding-top: 200px; padding-bottom: 20px">Questa pagina è in costruzione</h1>
+  <div style="height: 500px"></div>
 </div>
