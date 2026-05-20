@@ -17,7 +17,7 @@
 <body>
 
 <?php
-$gallery = 'style="background: rgba(0,0,0,0.2);"';
+$page = "gallery";
 include 'includes/header.php';
 ?>
 

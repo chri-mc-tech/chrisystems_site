@@ -17,7 +17,7 @@
 <body>
 
 <?php
-$projects = 'style="background: rgba(0,0,0,0.2);"';
+$page = "projects";
 include 'includes/header.php';
 ?>
 
