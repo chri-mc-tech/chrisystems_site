@@ -92,3 +92,9 @@ footer {
     border-top-right-radius: 20px;
     margin-top: auto;
 }
+
+@media (max-width: 600px) {
+    nav h2 {
+        display: none;
+    }
+}
