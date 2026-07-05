@@ -21,7 +21,7 @@ include 'includes/header.php';
         </p>
     </div>
 
-    <div class="box" style="margin: 3%; width: 50%; justify-items: center;">
+    <div class="team-box">
         <p style="margin: 0; font-size: 22px; text-align: center">
             Christopher - Fondatore e dev <br> <br>
             Ciao, sono Christopher, il fondatore, e mi occupo di programmazione e gestione di team e progetti.
@@ -29,7 +29,7 @@ include 'includes/header.php';
         </p>
     </div>
 
-    <div class="box" style="margin: 3%; width: 50%; justify-items: center;">
+    <div class="team-box">
         <p style="margin: 0; font-size: 22px; text-align: center">
             Riccardo - Junior Dev <br> <br>
             Ciao, sono Riccardo. Sono agli inizi con l'informatica.

@@ -62,6 +62,20 @@ nav {
     border-color: rgba(255, 255, 255, 0.25);
 }
 
+.team-box {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    padding: 20px 24px;
+    transition: border-color 0.2s;
+    margin: 3%;
+    width: 50%;
+    justify-items: center;
+}
+.team-box:hover {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
 .box_projects {
     background: rgb(73, 29, 214, 0.8);
     border: 1px solid rgba(255, 255, 255, 0.12);
@@ -98,13 +112,16 @@ footer {
         display: none !important;
     }
 
-    .box {
-        width: 85% !important;
+    .team-box {
+        width: 80%;
     }
 
     .menu {
         margin: 4px;
         padding: 4px 8px;
         font-size: 14px;
+    }
+    p {
+        font-size: 18px !important;
     }
 }
