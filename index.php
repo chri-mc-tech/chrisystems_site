@@ -13,7 +13,7 @@ include 'includes/header.php';
 ?>
 
 <div class="site">
-  <h1 style="color: #ffffff; padding-top: 50px; padding-bottom: 20px">Benvenuto su ChriSystems</h1>
+    <h1 style="color: #ffffff; padding-top: 50px; padding-bottom: 20px; text-align: center;">Benvenuto su ChriSystems</h1>
 
   <div class="box" style="margin: 3%; width: 70%; justify-items: center;">
     <p style="margin: 0; font-size: 22px; text-align: center">
