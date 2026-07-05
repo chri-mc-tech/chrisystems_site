@@ -2,8 +2,8 @@
 
 <header>
   <nav>
-    <img src="assets/logo.png" width="50" height="50" alt="logo" style="border-radius: 25%">
-    <h2 style="color: #ffffff">ChriSystems</h2>
+    <img src="assets/logo.png" width="50" height="50" alt="logo" style="border-radius: 25%; margin-top: 10px; margin-bottom: 10px;">
+    <h2 style="color: #ffffff; margin: 0">ChriSystems</h2>
     <div style="margin-left: auto; margin-right: 15px;">
       <a class="menu" <?php if ($page == "index") echo 'style="background: rgba(0,0,0,0.2);"' ?> href="index.php">Home</a>
       <a class="menu" <?php if ($page == "team") echo 'style="background: rgba(0,0,0,0.2);"' ?> href="team.php">Team</a>
