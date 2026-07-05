@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>Chri Systems</title>
+  <title>ChriSystems</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
   <link rel="stylesheet" href="style.css">
@@ -25,14 +25,11 @@ include 'includes/header.php';
   <div style="display: flex; flex-wrap: wrap; padding-top: 50px; width: 90%; justify-content: center; gap: 30px">
 
     <div class="box_projects">
-      <h2 style="margin: 0">Videogioco C++</h2>
+      <h2 style="margin: 0">Plugin Minecraft | Monitor di Risorse</h2>
       <p>Pagina in costruzione</p>
     </div>
 
-    <div class="box_projects">
-      <h2 style="margin: 0">Server Minecraft | Relise MC</h2>
-      <p>Pagina in costruzione</p>
-    </div>
+
 
   </div>
   <div style="height: 800px"></div>

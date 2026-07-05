@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>Chri Systems</title>
+  <title>ChriSystems</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
   <link rel="stylesheet" href="style.css">
@@ -23,9 +23,8 @@ include 'includes/header.php';
 
 <div class="site">
   <h1 style="color: #ffffff; padding-top: 200px; padding-bottom: 20px">Questa pagina è in costruzione</h1>
-  <div style="height: 500px"></div>
+  <div style="height: 600px"></div>
 </div>
-
 <?php include 'includes/footer.php'; ?>
 
 </body>
