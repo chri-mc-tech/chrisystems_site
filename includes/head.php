@@ -4,7 +4,7 @@
   <title>ChriSystems</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
 
-  <link rel="stylesheet" href="style.css?v=1.2">
+  <link rel="stylesheet" href="style.css?v=1.3">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
