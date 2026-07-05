@@ -32,7 +32,6 @@ include 'includes/header.php';
 
 
   </div>
-  <div style="height: 800px"></div>
 </div>
 
 <?php include 'includes/footer.php'; ?>

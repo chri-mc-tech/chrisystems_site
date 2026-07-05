@@ -23,7 +23,6 @@ include 'includes/header.php';
 
 <div class="site">
   <h1 style="color: #ffffff; padding-top: 200px; padding-bottom: 20px">Questa pagina è in costruzione</h1>
-  <div style="height: 600px"></div>
 </div>
 <?php include 'includes/footer.php'; ?>
 

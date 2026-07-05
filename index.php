@@ -84,7 +84,6 @@ include 'includes/header.php';
     </div>
   </div>
 </div>
-<div style="height: 200px;"></div>
 
 <?php include 'includes/footer.php'; ?>
 

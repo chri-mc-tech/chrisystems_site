@@ -41,7 +41,6 @@ include 'includes/header.php';
         </p>
     </div>
 
-    <div style="height: 400px"></div>
 </div>
 
 
