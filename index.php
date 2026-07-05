@@ -26,10 +26,16 @@ include 'includes/header.php';
 
   <div class="box" style="margin: 3%; width: 70%; justify-items: center;">
     <p style="margin: 0; font-size: 22px; text-align: center">
-        ChriSystems è un team di sviluppo software dedicato alla creazione di progetti tecnologici e sperimentali. <br>
-        Lavoriamo con diverse tecnologie per esplorare, imparare e trasformare idee in applicazioni concrete. <br>
-        Il progetto nasce dalla passione per la programmazione, i sistemi e lo sviluppo software. <br>
-        Qui condividiamo i nostri progetti, gli esperimenti e il nostro percorso di crescita.
+        Ho creato ChriSystems per avere uno spazio dove sperimentare nuove idee e imparare.
+        Impariamo sia testando le nostre intuizioni, sia analizzando le tecnologie esistenti per capire come funzionano davvero,
+        mettendo poi insieme tutto quello che abbiamo scoperto, puntiamo a tirare fuori qualcosa di nuovo <br> <br>
+
+        L'obiettivo non è guadagnare o vendere dati come le grandi aziende, ma creare progetti e farli provare per ricevere feedback.
+        Quello che ci importa è imparare e, in futuro, riuscire a fare qualcosa di concreto e utile, magari insegnando ciò che abbiamo scoperto.
+        Non ci interessano i tuoi dati, non ci interessa il profitto. <br> <br>
+
+        Se hai voglia di provare i nostri progetti, di darci un parere sincero o di aiutarci a capire cosa non funziona, allora sei nel posto giusto.
+        Siamo qui per costruire insieme qualcosa di concreto
     </p>
   </div>
 
@@ -84,6 +90,8 @@ include 'includes/header.php';
     </div>
   </div>
 </div>
+
+<div style="height: 50px"></div>
 
 <?php include 'includes/footer.php'; ?>
 
