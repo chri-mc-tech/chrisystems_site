@@ -98,6 +98,10 @@ footer {
         display: none !important;
     }
 
+    .box {
+        width: 85% !important;
+    }
+
     .menu {
         margin: 4px;
         padding: 4px 8px;

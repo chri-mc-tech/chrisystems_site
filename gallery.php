@@ -13,7 +13,7 @@ include 'includes/header.php';
 ?>
 
 <div class="site">
-  <h1 style="color: #ffffff; padding-top: 200px; padding-bottom: 20px">Questa pagina è in costruzione</h1>
+  <h1 style="color: #ffffff; padding-top: 200px; padding-bottom: 20px; text-align: center;">Questa pagina è in costruzione</h1>
 </div>
 <?php include 'includes/footer.php'; ?>
 
