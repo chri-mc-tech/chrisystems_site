@@ -24,7 +24,7 @@ include 'includes/header.php';
         Quando possibile, condividiamo strumenti, codice e conoscenze per permettere ad altre persone di imparare e contribuire. <br> <br>
 
         L'obiettivo principale è creare progetti, testarli con gli utenti e migliorarli attraverso feedback reali. In futuro alcuni progetti potranno anche evolversi in prodotti o servizi concreti.
-        Quello che ci importa è imparare e, in futuro, riuscire a fare qualcosa di concreto e utile, magari insegnando ciò che abbiamo scoperto.
+        Quello che ci importa è imparare e, in futuro, riuscire a fare qualcosa di concreto e utile, magari anche insegnando ciò che abbiamo scoperto.
         Crediamo nella trasparenza e nel rispetto degli utenti: i dati personali non devono essere sfruttati come modello di business. <br> <br>
 
         Se hai voglia di provare i nostri progetti, di darci un parere sincero o di aiutarci a capire cosa non funziona, allora sei nel posto giusto.
