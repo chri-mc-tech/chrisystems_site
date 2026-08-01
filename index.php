@@ -17,18 +17,19 @@ include 'includes/header.php';
 
   <div class="box" style="margin: 3%; width: 70%; justify-items: center;">
     <p style="margin: 0; font-size: 22px; text-align: center">
-        Ho creato ChriSystems per avere uno spazio dove sperimentare nuove idee e imparare.
-        Impariamo sia testando le nostre intuizioni, sia analizzando le tecnologie esistenti per capire come funzionano davvero,
-        mettendo poi insieme tutto quello che abbiamo scoperto, puntiamo a tirare fuori qualcosa di nuovo <br> <br>
+      ChriSystems è un team di appassionati di informatica, tecnologia e programmazione <br><br>
 
-        Quando possibile, condividiamo strumenti, codice e conoscenze per permettere ad altre persone di imparare e contribuire. <br> <br>
+      Nasce dalla voglia di imparare, sperimentare nuove idee e capire come funzionano le tecnologie che utilizziamo ogni giorno.
+      Attraverso i nostri progetti cerchiamo di mettere in pratica ciò che scopriamo, creando strumenti, esperimenti e soluzioni
+      che possano essere utili <br><br>
 
-        L'obiettivo principale è creare progetti, testarli con gli utenti e migliorarli attraverso feedback reali. In futuro alcuni progetti potranno anche evolversi in prodotti o servizi concreti.
-        Quello che ci importa è imparare e, in futuro, riuscire a fare qualcosa di concreto e utile, magari anche insegnando ciò che abbiamo scoperto.
-        Crediamo nella trasparenza e nel rispetto degli utenti: i dati personali non devono essere sfruttati come modello di business. <br> <br>
+      Condividiamo conoscenze, codice e risultati del nostro lavoro per permettere ad altre persone di imparare, contribuire e crescere
+      insieme a noi <br><br>
 
-        Se hai voglia di provare i nostri progetti, di darci un parere sincero o di aiutarci a capire cosa non funziona, allora sei nel posto giusto.
-        Siamo qui per costruire insieme qualcosa di concreto
+      Il nostro obiettivo è continuare a esplorare il mondo della tecnologia,
+      migliorare progetto dopo progetto e costruire qualcosa di concreto seguendo i valori di collaborazione, trasparenza
+      e rispetto degli utenti
+
     </p>
   </div>
 
