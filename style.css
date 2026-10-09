@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
     color: white;
@@ -106,6 +109,73 @@ footer {
     border-top-right-radius: 20px;
     margin-top: auto;
 }
+
+
+.center-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  width: min(90%, 420px);
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.32);
+  border-radius: 20px;
+  color: white;
+}
+
+.form-card input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+  font: inherit;
+  outline: none;
+}
+
+.form-card button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.4);
+  font: inherit;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.form-card button:hover {
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.register-success {
+  margin: 0 0 20px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(0, 255, 0, 0.15);
+  border: 1px solid rgba(33, 255, 0, 0.3);
+}
+.register-error {
+  margin: 0 0 20px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(255, 0, 0, 0.15);
+  border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+
 
 @media (max-width: 700px) {
     nav h2 {
