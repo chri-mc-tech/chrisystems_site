@@ -1,11 +1,5 @@
 <?php
 
-use Dotenv\Dotenv;
-require_once __DIR__ . '/vendor/autoload.php';
-$dotenv = Dotenv::createImmutable(__DIR__);
-$dotenv->load();
-$beta_code = $_ENV["BETA_CODE"];
-
 $result = null;
 $status_code = null;
 
