@@ -73,12 +73,24 @@ include 'includes/head.php';
         </label>
       </div>
 
-      <button type="submit">Register</button>
+      <button type="submit" id="register-button">Register</button>
+      <p id="loading" hidden>Registration in progress...</p>
   
     </form>
   </div>
 
 </main>
+
+<script>
+    document.querySelector("form").addEventListener("submit", function () {
+        const button = document.getElementById("register-button");
+        const loading = document.getElementById("loading");
+
+        button.disabled = true;
+        button.textContent = "Wait...";
+        loading.hidden = false;
+    });
+</script>
 
 </body>
 </html>
