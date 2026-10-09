@@ -4,11 +4,10 @@ $result = null;
 $status_code = null;
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-  $curl = curl_init("http://localhost:4141/api/v1/auth/register");
+  $curl = curl_init("http://localhost:4141/api/v1/auth/login");
 
   $data = json_encode([
-    "username" => $_POST["username"],
-    "email" => $_POST["email"],
+    "identifier" => $_POST["identifier"],
     "password" => $_POST["password"]
   ]);
 
@@ -25,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   curl_close($curl);
 }
 
-$reset_form = $status_code == 201;
+$reset_form = $status_code == 200;
 ?>
 
 <!DOCTYPE html>
@@ -38,43 +37,36 @@ include 'includes/head.php';
 <body>
 <main class="center-container">
   <div class="form-card">
-    <h1>Register</h1>
+    <h1>Login Test</h1>
 
     <?php if ($result !== null): ?>
-      <?php if ($status_code == 201): ?>
-        <p class="register-success"><?= htmlspecialchars($result) ?></p>
+      <?php if ($status_code == 200): ?>
+        <p class="register-success"><?= htmlspecialchars("Authenticated, the token was generated successfully.") ?></p>
       <?php else: ?>
         <p class="register-error"><?= htmlspecialchars($result) ?></p>
       <?php endif; ?>
     <?php endif; ?>
-    
-    
-    
+
+
+
     <form method="POST">
 
       <div class="form-group">
-      <label>Username:</label>
+        <label>Identifier (Username or Email):</label>
         <label>
-          <input type="text" name="username" required value="<?= !$reset_form ? htmlspecialchars($_POST["username"] ?? "") : "" ?>">
+          <input type="text" name="identifier" required value="<?= !$reset_form ? htmlspecialchars($_POST["identifier"] ?? "") : "" ?>">
         </label>
       </div>
 
       <div class="form-group">
-      <label>Email:</label>
-        <label>
-          <input type="email" name="email" required value="<?= !$reset_form ? htmlspecialchars($_POST["email"] ?? "") : "" ?>">
-        </label>
-      </div>
-
-      <div class="form-group">
-      <label>Password:</label>
+        <label>Password:</label>
         <label>
           <input type="password" name="password" required value="">
         </label>
       </div>
 
       <button type="submit">Register</button>
-  
+
     </form>
   </div>
 
