@@ -42,6 +42,8 @@ include 'includes/head.php';
     <?php if ($result !== null): ?>
       <?php if ($status_code == 200): ?>
         <p class="register-success"><?= htmlspecialchars("Authenticated, the token was generated successfully.") ?></p>
+      <?php elseif ($status_code == 0): ?>
+        <p class="register-warn">ChriSystems servers are offline, please try again later.</p>
       <?php else: ?>
         <p class="register-error"><?= htmlspecialchars($result) ?></p>
       <?php endif; ?>
