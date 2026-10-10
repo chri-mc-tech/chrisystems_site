@@ -13,7 +13,7 @@ include 'includes/header.php';
 ?>
 
 <div class="site">
-    <h1 style="color: #ffffff; padding-top: 50px; padding-bottom: 20px; text-align: center;">Benvenuto su ChriSystems</h1>
+  <h1 style="color: #ffffff; padding-top: 50px; padding-bottom: 20px; text-align: center;">Benvenuto su ChriSystems</h1>
 
   <div class="box" style="margin: 3%; width: 70%; justify-items: center;">
     <p style="margin: 0; font-size: 22px; text-align: center">
@@ -43,6 +43,9 @@ include 'includes/header.php';
         <span class="tag">Java</span>
         <span class="tag">HTML</span>
         <span class="tag">CSS</span> <br> <br>
+        <span class="tag">PHP</span> <br> <br>
+        <span class="tag">SQL</span> <br> <br>
+        <span class="tag">Postgres</span> <br> <br>
 
         <span class="mini_title">Strumenti:</span> <br>
         <span class="tag">Git</span>
