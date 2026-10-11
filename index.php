@@ -42,9 +42,9 @@ include 'includes/header.php';
         <span class="tag">C++</span>
         <span class="tag">Java</span>
         <span class="tag">HTML</span>
-        <span class="tag">CSS</span> <br> <br>
-        <span class="tag">PHP</span> <br> <br>
-        <span class="tag">SQL</span> <br> <br>
+        <span class="tag">CSS</span>
+        <span class="tag">PHP</span>
+        <span class="tag">SQL</span>
         <span class="tag">Postgres</span> <br> <br>
 
         <span class="mini_title">Strumenti:</span> <br>
